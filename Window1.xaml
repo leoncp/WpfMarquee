@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfCanvasTest.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Component Workshop WPF Marquee Example" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Background="Transparent" AllowsTransparency="True" WindowStyle="None" Topmost="True">
+    <Grid IsHitTestVisible="False">
+		<Canvas x:Name="canvas1" ClipToBounds="True" Width="1600" Height="150" Background="Transparent">
+		</Canvas>
+	</Grid>
+</Window>
